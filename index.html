@@ -20,8 +20,30 @@
     <!-- /favicon -->
 
     <title>Colour Multiplier</title>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.js"
+    ></script>
+    <script type="text/javascript" src="main.js"></script>
   </head>
   <body>
     <h1>Colour Multiplier</h1>
+    <div id="primaries">
+      Primaries:
+      <input type="color" id="p1" value="#00ffff" />
+      <input type="color" id="p2" value="#ff00ff" />
+      <input type="color" id="p3" value="#ffff00" />
+    </div>
+    <div id="secondaries">
+      Secondaries:
+      <input type="color" id="s1" />
+      <input type="color" id="s2" />
+      <input type="color" id="s3" />
+    </div>
+    <div>
+      Tertiary:
+      <input type="color" id="t" />
+    </div>
   </body>
 </html>
